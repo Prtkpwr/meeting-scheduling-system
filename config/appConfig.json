@@ -1,0 +1,24 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "meetingPlanner",
+        "app_desc": "A meeting scheduling system",
+        "node_port": 3000,
+        "json_indentation": 4,
+        "database": "devDb"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "testDb"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "staggingDb"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "prodDb"
+    }
+}
